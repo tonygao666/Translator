@@ -37,7 +37,7 @@ function doTranslate(){
 
 	$.ajax({
 		type: "POST",
-		url: "http://api.fanyi.baidu.com/api/trans/vip/translate",
+		url: "https://fanyi-api.baidu.com/api/trans/vip/translate",
 		data: sendJson,
 		dataType:'jsonp',
 		success: function(data){
